@@ -1,0 +1,14 @@
+/* Smartphone xs */
+
+@media (min-width: 601px) and (max-width: 767px) {
+}
+
+/* Tablet */
+
+@media (min-width: 768px) and (max-width: 1199px) {
+}
+
+/* Desktop */
+
+@media (min-width: 1200px) {
+}
