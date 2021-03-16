@@ -6,13 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Spotify Web</title>
 
+    <!-- CSS -->
+
     <link rel="stylesheet" href="css/main.css" />
+
+    <!-- Responsive -->
+
     <link rel="stylesheet" href="css/responsive.css" />
 
+    <!-- Font -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap"
       rel="stylesheet"
+    />
+
+    <!-- Icone -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
     />
   </head>
 
@@ -54,7 +67,18 @@
             <li>Nome Playlist</li>
           </ul>
         </div>
-        <div class="bottom-sidebar"></div>
+        <div class="bottom-sidebar">
+          <div class="menu-sidebar grigio border-bottom">
+            <img src="img/download.svg" alt="download" />
+            <p>Installa app</p>
+          </div>
+          <div class="menu-sidebar">
+            <div class="profilo">
+              <img src="img/profile.svg" alt="profile" />
+            </div>
+            <p>Jhon Doe</p>
+          </div>
+        </div>
       </aside>
       <div class="content">
         <div class="top-content">
@@ -92,9 +116,38 @@
     </main>
 
     <footer>
-      <div class="player-album">album</div>
-      <div class="player-controller">controller</div>
-      <div class="player-audio">audio</div>
+      <div class="player-album">
+        <img src="img/sinister.jpeg" alt="" />
+        <p class="bianco">Sinister</p>
+        <p class="grigio">Brano Nome</p>
+        <i class="far fa-heart"></i>
+        <i class="far fa-folder"></i>
+      </div>
+      <div class="player-controller">
+        <div class="top-controller">
+          <i class="fas fa-random"></i>
+          <i class="fas fa-step-backward"></i>
+          <i class="far fa-play-circle"></i>
+          <i class="fas fa-step-forward"></i>
+          <i class="fas fa-redo-alt"></i>
+        </div>
+        <div class="bottom-controller">
+          <p>0:25</p>
+          <div class="container">
+            <div class="child"></div>
+          </div>
+          <p>4:35</p>
+        </div>
+      </div>
+      <div class="player-audio">
+        <i class="fas fa-bars"></i>
+        <i class="fas fa-desktop"></i>
+        <i class="fas fa-volume-up"></i>
+
+        <div class="container">
+          <div class="child"></div>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
