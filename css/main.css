@@ -10,7 +10,7 @@ body {
   font-family: "Montserrat", sans-serif;
   color: white;
   background-color: black;
-  font-weight: 800;
+  font-weight: 900;
 }
 
 .bianco {
@@ -23,6 +23,10 @@ body {
 
 .border-bottom {
   border-bottom: 2px solid #a3a3a3;
+}
+
+.pb25 {
+  padding-bottom: 25px;
 }
 
 /* Main Content */
@@ -101,8 +105,13 @@ main {
 
 .top-sidebar ul li {
   margin-top: 18px;
-  margin-right: 110px;
+  margin-right: 80px;
   font-size: 13px;
+}
+
+.top-sidebar a {
+  text-decoration: none;
+  color: #a3a3a3;
 }
 
 .quadrato {
@@ -140,7 +149,7 @@ main {
 .content {
   position: relative;
   flex-grow: 1;
-  background-color: yellowgreen;
+  background-color: #141922;
 }
 
 .content .scrollable {
@@ -174,11 +183,23 @@ main {
 
 .content-menu {
   height: 80px;
-  background-color: tomato;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
 
-.categoria {
-  margin-bottom: 30px;
+.content-menu ul {
+  list-style: none;
+  display: inline-block;
+}
+
+.content-menu ul li {
+  display: inline-block;
+  text-transform: uppercase;
+  margin-right: 28px;
 }
 
 .album-list {
@@ -192,7 +213,22 @@ main {
   margin-right: 15px;
   margin-bottom: 15px;
   height: 300px;
-  background-color: slateblue;
+}
+
+.album-list img {
+  width: 100%;
+}
+
+.cerchio img {
+  border-radius: 50%;
+}
+
+.categoria {
+  margin-bottom: 30px;
+}
+
+.categoria p {
+  font-size: 12px;
 }
 
 /* Footer */
